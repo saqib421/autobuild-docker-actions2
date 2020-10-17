@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: actions/hello-world-docker-action@v1
+      uses: saqib421/autobuild-docker-actions2@v1
       with:
         who-to-greet: 'Saqib Sadiq'
     # Use the output from the `hello` step
